@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import MoodSelector from "./js/MoodSelector";
-import Playlist from "./js/Playlist";
-import fetchSongsByMood from "./js/api";
+import MoodSelector from "./MoodSelector";
+import Playlist from "./Playlist";
+import fetchSongsByMood from "./api";
 
 const App = () => {
   const [mood, setMood] = useState("");
